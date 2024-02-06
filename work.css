@@ -1,0 +1,115 @@
+.WworkSec{
+
+    background-color: #181818;
+    margin: 0%;
+    color: white;
+    height: fit-content;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .WworkHead{
+    text-align: center;
+    color: #ff4b02;
+    font-size: xx-large;
+    font-weight: 900;
+    padding-top: 15vh;
+  }
+  .WworkCon{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0px 3vw;
+  }
+  .Wwork i{
+    font-size: 300px;
+  }
+  .Wwork{
+    border :1px solid #ffff;
+    width: 43vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .WworkInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .WworkInfo p{
+    line-height: 25px;
+    word-spacing: 2px;
+    text-align: center;
+  }
+  .WworkSec a button{
+      background-color: #ff4b02;
+      width: 175px;
+      font-size: large;
+      padding: 5px 10px;
+      border: none;
+      border-radius: 7px;
+      color: white;
+      transition: 0.5s ease all;
+      margin: 5vh 10vh;
+    }
+  
+    .WworkSec a button:hover {
+      cursor: pointer;
+      box-shadow: 2px 3px #702203;
+    }
+
+
+
+
+
+
+
+
+
+
+
+      @media only screen and (max-width: 774px){
+      
+      .Wwork i{
+      font-size: 200px;
+      }
+      .WworkInfo h2{
+        font-size: large;
+      }
+    }
+
+    @media only screen and (max-width: 528px){
+      .WworkCon{
+        flex-direction: column;
+        height: fit-content;
+        justify-content: space-between;
+      }
+      .Wwork{
+        margin: 10px 20px;
+        width: fit-content;
+        
+      }
+    }
+    @media only screen and (max-width: 666px){
+      .WworkInfo h2{
+        font-size: medium;
+      }
+    }
+    @media only screen and (max-width: 500px){
+      .WworkInfo h2{
+        font-size: x-large;
+      }
+    }
+    @media only screen and (max-width: 438px){
+      .WworkInfo h2{
+        font-size: large;
+      }
+    }
